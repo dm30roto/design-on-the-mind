@@ -4,8 +4,6 @@ title:  "It works!"
 date:   2017-04-25 02:15:47 -0700
 categories: other
 ---
-### Welcome
-First off, thanks for stoping by! I hope you find these posts interesting and useful.
 
 ### Why I decided to start a blog
 
