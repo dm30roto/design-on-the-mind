@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "It works!"
+date:   2017-04-25 02:15:47 -0700
+categories: other
+---
+
+My first few posts will be about how I got started with this blog. Here we go!
+
+### Getting setup
+After a couple days of ~~struggling~~ learning, I finally have my blog working. Here's a breakdown of what I had to do so far.
+* Learn about static site generators. For a good recap on them, take a look at [Static Site Generators](http://www.oreilly.com/web-platform/free/static-site-generators.csp?intcmp=il-web-free-product-lgen_staticsitegenerators) by Brian Rinaldi
+* Pick a static site generator to use (In case you couldn't tell, I used Jekyll)
+* Learn the basics of Jekyll
+* Try out GitHub Pages (decided to not use this in the end, more on this later)
+* Learn about Jekyll Themes and how to build them, which lead to...
+* Learning about RubyGems and how to publish them
+* Figure out how to package all this stuff and host it somewhere
+
+For this post, lets just get a little background into static site generators and why they're a thing.
+
+#### Static sites? What is this, 1999?
+What is a static site? According to Brian Rinaldi, static sites have the following characteristics:
+>* Static site files are delivered to the end user exactly as they are on the server.
+>* There is no server-side language.
+>* There is no database.
+>* Static sites are HTML, CSS, and JavaScript.
+
+If you're like me, when I first heard about static sites and their generators I was befuddled. No databases? No dynamic content? Sounds like a lot of hype for things they can't do. Who's even using this stuff?
+
+It turns out, a decent amount of folks. While looking to update my portfolio site (which, after learning all this, I will probably be redoing once again...) I found a few nice examples that were using Jekyll, [Wintersmith](http://wintersmith.io/) and [Assemble](http://assemble.io/). They weren't your typical cookie cutter WordPress/Bootstrap theme websites either, they looked really good!
+
+Ok, so static site generators are cool for blogs and personal websites, but nobody uses this stuff for business, right? While they're definitely not taking over the web anytime soon, I did see a few jobs that required some knowledge of them. So it does seem like a good idea to at least be familiar with them.
+
+#### Don't call it a comeback
+Static sites are by no means a new concept. If you have been doing web development for while, you might remember making sites with applications like Dreamweaver and Homesite. You would essentially have your files hosted somewhere, connect to it via FTP and would manually update all the files each time the content changed. All the content was in plain HTML files, so you needed some level of technical knowledge in order to create the content. This was fine if your site was fairly small in size, but when they began to grow, maintaining them became a nightmare. Some tools offered ways to create templates to help scale out the sites, but those were complicated as well. Forget it if you need any kind of dynamic content liking commenting or shopping cart.
+
+#### The age of dynamic sites
+For a while dynamic sites took care of all this. Using content management systems (CMS) like WordPress and Drupal, organizations were able to separate the content and the technical aspect of the sites. This became so popular that almost [28% of the top 10 million websites on the web now are created with WordPress](https://w3techs.com/technologies/overview/content_management/all/).
+
+But now we had another problem. Those CMS are baked with tons of great features, but with great power comes great responsibility. Setting up these CMS's required knowledge of dynamic programming languages (like PHP) and connecting to databases (like MySQL). Performance also becomes an issue since a lot of unused features can slow down sites. This is especially important today since connectivity speeds and devices we consume or information is all over the spectrum. What are people to do now?
+
+#### Ajax to the rescue
+Before talking about Ajax, lets recap the 3 issues that were trying to be solved.
+1. Separating the content from the development. Content managers shouldn't need to be a programmer just to write a post on a blog.
+2. Need the ability to have dynamic content such as analytics, commenting, and search.
+3. Minimize any unnecessary files to make the site as performant as possible for various network connectivity and devices.
+
+If you've done any sort of web development, you are at least familiar with Ajax and how it has changed how we build websites. Because of Ajax, we can now use whats needed in item 2 without actually developing and dynamic content ourselves. Ajax allows us to load remote data from remote services. So now, you can use something like [Disqus](https://disqus.com/) for commenting. There's tons of similar services for search, shopping and more, on the web. The most difficult issue to fix has now been figured out thanks to our friend Ajax.
+
+#### Benefits of static sites
+Given that I'm writing this post on a static site, you probably already guessed I'm a fan. In order to persuade you to agree, let me layout the benefits of them, based on Brian Rinaldi book:
+* Performance
+  Since there's no database and no server-side programming, all the the browser needs to do is load the static content. This reduces any potential bottlenecks from traffic surges or poor performing SQL queries.
+* Ease of hosting
+  No special hosting configuration is needed for static sites. Just upload the files and go! In fact, if you're using [Jekyll you can get free hosting with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), making it crazy easy to host these sites.
+* Security
+  No database, no server-side programming, no problems! If you're files are hosted securely, you can be worry free.
+* Versioning
+  Dealing with static files only make it easy to use versioning systems like git to version and track content.
+
+#### Final thoughts
+Static sites are definitely not for every case. For example, if you need multiple user authentication/authorization, you're not going to be able to do that with them. But many folks don't need those type of features, and static site generators are a great solution for them.
+
+Being fast, lightweight and (relatively) easy to use are some of the reasons static sites can be a great choice. Adding dynamic web services is great to add functionality without embedding everything in your site. All in all, if your site fits the bill of what a static site is, keep it simple and use a static site generator.
+
+Happy exploring! 
