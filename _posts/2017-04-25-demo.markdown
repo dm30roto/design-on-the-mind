@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "It works!"
+date:   2017-04-25 22:15:47 -0700
+categories: other
+---
+NEW DEMO POST! WUBBA LUBBA DUB DUB
+
+## WUBBA LUBBA
+### DUB DUB
