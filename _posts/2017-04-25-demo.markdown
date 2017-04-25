@@ -1,10 +1,20 @@
 ---
 layout: post
 title:  "It works!"
-date:   2017-04-25 22:15:47 -0700
+date:   2017-04-25 02:15:47 -0700
 categories: other
 ---
-NEW DEMO POST! WUBBA LUBBA DUB DUB
+### Welcome
+First off, thanks for stoping by! I hope you find these posts interesting and useful.
 
-## WUBBA LUBBA
-### DUB DUB
+### Why I decided to start a blog
+
+### Getting setup
+After a couple days of <span style="text-decoration:strikethrough;">struggling</span> learning, I have the Jekyll blog working. Here's a breakdown of what I had to do so far.
+* Learn about static site generators. For a good recap on them, take a look at [Static Site Generators](http://www.oreilly.com/web-platform/free/static-site-generators.csp?intcmp=il-web-free-product-lgen_staticsitegenerators) by Brian Rinaldi
+* Pick a static site generator to use (In case you couldn't tell, I used Jekyll)
+* Learn the basics of Jekyll
+* Try out GitHub Pages (decided to not use this in the end, more on this later)
+* Learn about Jekyll Themes and how to build them, which lead to...
+* Learning about RubyGems and how to publish them
+* Figure out how to package all this stuff and host it somewhere
