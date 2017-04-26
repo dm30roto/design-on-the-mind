@@ -64,4 +64,11 @@ Static sites are definitely not for every case. For example, if you need multipl
 
 Being fast, lightweight and (relatively) easy to use are some of the reasons static sites can be a great choice. Adding dynamic web services is great to add functionality without embedding everything in your site. All in all, if your site fits the bill of what a static site is, keep it simple and use a static site generator.
 
-Happy exploring! 
+Happy exploring!
+
+#### Further Reading
+* [Build A Blog With Jekyll and GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+* [Jekyll For WordPress Developers](https://www.smashingmagazine.com/2017/04/jekyll-wordpress-developers/)
+* [Why Static Site Generators Are The Next Big Thing](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/)
+* [Static Site Generators Reviewed: Jekyll, Middleman, Roots, Hugo](https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/)
+*
