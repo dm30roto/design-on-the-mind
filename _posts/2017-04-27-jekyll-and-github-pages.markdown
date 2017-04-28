@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "It works! Blog Creation Part 1"
-date:   2017-04-25 02:15:47 -0700
-categories: other
+title:  "Basics of Jekyll and Github Pages. Blog Creation Part 2"
+date:   2017-04-27 10:38:47 -0700
+categories: jekyll github static-site-generators blogs html css git
 ---
 
-My first few posts will be about how I got started with this blog. Here we go!
+This is the second part of the series of post about how I built this blog. The first post was an overview of static sites and static site generators. In this post I'll give a super high level overview of my experience so far with Jekyll and GitHub Pages.
 
-### Getting setup
+### Jekyll
 After a couple days of ~~struggling~~ learning, I finally have my blog working. Here's a breakdown of what I had to do so far.
 * Learn about static site generators. For a good recap on them, take a look at [Static Site Generators](http://www.oreilly.com/web-platform/free/static-site-generators.csp?intcmp=il-web-free-product-lgen_staticsitegenerators) by Brian Rinaldi
 * Pick a static site generator to use (In case you couldn't tell, I used Jekyll)
