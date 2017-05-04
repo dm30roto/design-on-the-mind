@@ -1,13 +1,29 @@
 ---
 layout: post
-title:  "Basics of Jekyll and Github Pages. Blog Creation Part 2"
+title:  "Basics of Jekyll. Blog Creation Part 2"
 date:   2017-04-27 10:38:47 -0700
 categories: jekyll github static-site-generators blogs html css git
 ---
 
-This is the second part of the series of post about how I built this blog. The first post was an overview of static sites and static site generators. In this post I'll give a super high level overview of my experience so far with Jekyll and GitHub Pages.
+This is the second part of the series of post about how I built this blog. The first post was an overview of static sites and static site generators. In this post I'll give a super high level overview of [Jekyll](https://jekyllrb.com).
 
-### Jekyll
+### Why Jekyll?
+As mentioned in my previous post, there are a lot of different options to pick through when deciding on what static site generator to use. So much in fact there are sites like [StaticGen](https://www.staticgen.com/) which are completely dedicated to tracking and organizing all of them.
+
+I went with Jekyll for a couple a reasons. First, it seemed to be the most used and adopted option. Most of the research I looked through pointed me toward Jekyll due to this. The second main reason was level of documentation. While I didn't need to dive too deep into it, Jekyll's documentation on getting setup was fairly satisfactory. All in all, I didn't see a big enough reason to try any of the other generators, so I went with the popular choice.
+
+Note, I was initially deterred from Jekyll since it's built with Ruby. I am not familiar at all with Ruby, so I wasn't sure if this was going to be an issue, but honestly you don't need to know much about it. Eventually I might want to try something based on JavaScript, but I don't think it's that important unless you need to debug something with the generator itself.
+
+Other things to consider while picking a static site generator is the template engine it uses and the simple text markup language (STML) it uses. Jekyll uses [Liquid](https://github.com/Shopify/liquid/wiki) template engine and [Markdown](https://daringfireball.net/projects/markdown/) or [Textile](https://www.promptworks.com/textile) for STML. Again, if you don't already have a preference, not super important.
+
+### Jekyll overview
+Jekyll's tagline is this:
+>  Transform your plain text into static websites and blogs.
+
+The whole idea of Jekyll (and most static site generators) is to be simple, static and blog-aware. Just playing with it
+
+
+
 After a couple days of ~~struggling~~ learning, I finally have my blog working. Here's a breakdown of what I had to do so far.
 * Learn about static site generators. For a good recap on them, take a look at [Static Site Generators](http://www.oreilly.com/web-platform/free/static-site-generators.csp?intcmp=il-web-free-product-lgen_staticsitegenerators) by Brian Rinaldi
 * Pick a static site generator to use (In case you couldn't tell, I used Jekyll)
